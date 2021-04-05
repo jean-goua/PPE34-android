@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.btssio.simon.ppe4_android_2020_2021_g1.controleur.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:text="@string/textegsb" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultation_connect"
+            android:id="@+id/bouton_consultation_connecté"
+            android:layout_marginTop="41dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/importation"
+            android:id="@+id/bouton_importation"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/bouton_consultation_connecté"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultation_deconnect"
+            android:id="@+id/bouton_consultation_déconnecté"
+            android:layout_marginTop="39dp"
+            android:layout_below="@+id/bouton_importation"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maj"
+            android:id="@+id/bouton_MAJ"
+            android:layout_marginTop="42dp"
+            android:layout_below="@+id/bouton_consultation_déconnecté"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

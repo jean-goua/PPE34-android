@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GSB_Application</string>
+
+    <string name="textegsb">ENTREPRISE GSB!</string>
+    <string name="consultation_connect">Consultation en mode connecté via le service Web</string>
+    <string name="importation">Importation des données de la base de données</string>
+    <string name="consultation_deconnect">Consultation en mode déconnecté via la base de données</string>
+    <string name="maj">Mise à jour de visiteurs</string>
+    <string name="action_settings">Settings</string>
+</resources>
